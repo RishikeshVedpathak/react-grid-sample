@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-grid-sample/static/css/main.3de7196c.chunk.css",
+    "main.js": "/react-grid-sample/static/js/main.04e91f4a.chunk.js",
+    "main.js.map": "/react-grid-sample/static/js/main.04e91f4a.chunk.js.map",
+    "runtime~main.js": "/react-grid-sample/static/js/runtime~main.83a0b59d.js",
+    "runtime~main.js.map": "/react-grid-sample/static/js/runtime~main.83a0b59d.js.map",
+    "static/css/2.ac9aa0ed.chunk.css": "/react-grid-sample/static/css/2.ac9aa0ed.chunk.css",
+    "static/js/2.d818607c.chunk.js": "/react-grid-sample/static/js/2.d818607c.chunk.js",
+    "static/js/2.d818607c.chunk.js.map": "/react-grid-sample/static/js/2.d818607c.chunk.js.map",
+    "index.html": "/react-grid-sample/index.html",
+    "precache-manifest.fe207f4b643fcf6d5d91bfe822d41a72.js": "/react-grid-sample/precache-manifest.fe207f4b643fcf6d5d91bfe822d41a72.js",
+    "service-worker.js": "/react-grid-sample/service-worker.js",
+    "static/css/2.ac9aa0ed.chunk.css.map": "/react-grid-sample/static/css/2.ac9aa0ed.chunk.css.map",
+    "static/css/main.3de7196c.chunk.css.map": "/react-grid-sample/static/css/main.3de7196c.chunk.css.map"
+  }
+}
