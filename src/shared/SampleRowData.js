@@ -81,6 +81,7 @@ RefData.COUNTRY_CODES = {
 };
 
 RefData.COUNTRIES = [
+  {country: "India", continent: "Asia", language: "English"},
   {country: "Ireland", continent: "Europe", language: "English"},
   {country: "Spain", continent: "Europe", language: "Spanish"},
   {country: "United Kingdom", continent: "Europe", language: "English"},

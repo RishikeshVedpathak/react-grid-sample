@@ -23,9 +23,7 @@ class DataTable extends Component {
     };
 
     this.onGridReady = this.onGridReady.bind(this);
-    this.refreshCells = this.refreshCells.bind(this)
-    this.updateRowData = this.updateRowData.bind(this)
-    this.setRowData = this.setRowData.bind(this)
+    this.refreshCells = this.refreshCells.bind(this);
   }
 
   onGridReady(params) {
@@ -40,29 +38,6 @@ class DataTable extends Component {
     this.api.getSelectedRows().forEach(row => row.proficiency = Math.floor(Math.random() * 100) + 1);
 
     this.api.refreshCells();
-  }
-
-  // Throws warning
-  updateRowData() {
-    this.api.selectAllFiltered();
-
-    const rowsToUpdate = this.api.getSelectedNodes().map(node => {
-      node.data.proficiency++;
-      return node;
-    });
-
-    this.api.updateRowData({ update: rowsToUpdate });
-  }
-
-  // Works as expected
-  setRowData() {
-    this.api.selectAllFiltered();
-
-    this.api.getSelectedNodes().forEach(node => {
-      const data = node.data;
-      data.proficiency++;
-      node.setData(data);
-    });
   }
 
   startInterval = () => {
@@ -88,7 +63,7 @@ class DataTable extends Component {
           <Button variant="danger" className={styles.actionButton} onClick={this.stopInterval}>Stop Live Data</Button>
           <Button variant="info" className={styles.actionButton}  onClick={this.exportToCSV}>Export Data</Button>
         </div>
-        <div style={{ height: 525, width: 900 }} className="ag-theme-dark">
+        <div style={{ height: 525, width: 1200 }} className="ag-theme-dark">
           <AgGridReact
             // gridOptions is optional - it's possible to provide
             // all values as React props
